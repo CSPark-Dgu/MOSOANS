@@ -19,6 +19,11 @@ public class DisplayMessageActivity extends AppCompatActivity {
         textView.setText(message);
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
 
 
 }
