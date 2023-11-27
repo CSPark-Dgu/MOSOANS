@@ -24,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "onStart 호출됨");
     }
 
-
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Log.d("MainActivity", "onResume 호출됨");
+    }
 }
