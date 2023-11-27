@@ -29,5 +29,9 @@ public class MainActivity extends AppCompatActivity {   //콜백 함수
     }
 
 
-
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Log.d("MainActivity", "onResume 호출됨");
+    }
 }
