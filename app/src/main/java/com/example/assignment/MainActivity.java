@@ -11,4 +11,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.d("MainActivity", "onPause 호출됨");
+    }
+
 }
