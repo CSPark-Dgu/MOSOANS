@@ -18,4 +18,11 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "onPause 호출됨");
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("MainActivity", "onStart 호출됨");
+    }
+
+
 }
