@@ -55,5 +55,5 @@ public class MainActivity extends AppCompatActivity {
         text.setText("My onDestroy()!!");
     }
 
-    //commit test
+    //commit test 2
 }
