@@ -54,4 +54,6 @@ public class MainActivity extends AppCompatActivity {
         text = (TextView)findViewById(R.id.textView);
         text.setText("My onDestroy()!!");
     }
+
+    //commit test
 }
