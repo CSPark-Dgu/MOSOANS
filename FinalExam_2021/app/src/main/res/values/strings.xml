@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FinalExam_2021</string>
+    <string name="name">이름을 입력하시오</string>
+    <string name="phone">전화번호를 입력하시오</string>
+    <string name="email">이메일 주소를 입력하시오</string>
+    <string name="submit">submit</string>
+</resources>
