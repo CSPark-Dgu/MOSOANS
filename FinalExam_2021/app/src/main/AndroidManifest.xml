@@ -16,14 +16,8 @@
         android:theme="@style/Theme.FinalExam_2021"
         tools:targetApi="31">
         <activity
-            android:name=".ShowPeople"
+            android:name=".RecyclerViewActivity"
             android:exported="false" />
-
-        <provider
-            android:name=".MyContentProvider"
-            android:authorities="com.example.finalexam_2021.MyContentProvider"
-            android:enabled="true"
-            android:exported="true" />
 
         <activity
             android:name=".MainActivity"
