@@ -35,5 +35,4 @@ public class University {
         return imageUrl;
     }
 
-    // constructor, getters and setters
 }

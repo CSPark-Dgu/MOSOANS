@@ -44,15 +44,12 @@ public class UniversityAdapter extends RecyclerView.Adapter<UniversityAdapter.Vi
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
-        // initialize your views
 
         ViewHolder(View itemView) {
             super(itemView);
-            // assign views
         }
 
         void bind(final University university) {
-            // Assuming you have these views in your layout
             TextView name = itemView.findViewById(R.id.name);
             TextView homepage = itemView.findViewById(R.id.homepage);
             final TextView phoneNumber = itemView.findViewById(R.id.phoneNumber);
